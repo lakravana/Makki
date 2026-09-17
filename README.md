@@ -23,6 +23,8 @@ como un triángulo con tres vértices —Arquitrama, Minitrama, Antitrama— y u
 dentro: la posición fija los tres porcentajes (siempre suman 100) y enciende un conjunto de
 reglas que van a condicionar los módulos siguientes.
 
+![Triángulo narrativo con el pin fijado cerca del vértice Arquitrama](Claude%20outputs/tri2-375.png)
+
 *El turno de noche* se fijó en **62 % Arquitrama / 30 % Minitrama / 8 % Antitrama**: una historia
 de causa-efecto clásica, con un protagonista activo y un final cerrado.
 
@@ -38,6 +40,8 @@ Lealtad → Deslealtad → Traición → Traición vivida y contada como lealtad
 
 > **Idea controladora:** *"La traición se disfraza de lealtad cuando alguien confunde deber un
 > favor con deberlo todo."*
+
+![Campo de idea controladora con el panel de ejemplos abierto, cuatro frases listas para usar y una sugerencia automática](Claude%20outputs/ejemplos.png)
 
 Esta frase no es decorativa: los módulos 2 a 5 tienen que demostrarla, y la app lo comprueba.
 
@@ -61,6 +65,8 @@ fricción concreta genera. Así entra **Vidal**, el mentor:
 > Vinculado al polo B de Ada ("incapaz de negarle nada a quien la avaló"), actitud *tienta*:
 > *"Le recuerda quién firmó su informe cuando iba a perder la plaza, y cobra cada vez que lo
 > hace."*
+
+![Lienzo orbital con el núcleo del protagonista en el centro y dos planetas estables enganchados a sus polos](Claude%20outputs/orb5.png)
 
 Si dos secundarios tiran del mismo polo con la misma actitud, la app lo marca como **colisión de
 frecuencia** y obliga a fusionarlos o diferenciarlos — no deja avanzar con dos personajes que
@@ -136,12 +142,19 @@ candados en cadena**, y cada uno exige que el anterior esté cerrado:
    sin munición, parlamentos sin interrupción, frases predecibles) más el **Guion Mudo**: esconde
    el diálogo entero para comprobar si el conflicto se entiende solo con la acción.
 
+![Gate 1, Step Outline, cerrado pero sin pitchear: aviso ámbar y botón para ensayar el pitch de 10 minutos](Claude%20outputs/m5-outline.png)
+
 Con los cuatro gates cerrados se desbloquea la exportación: **PDF** con formato de industria
 (Courier 12, A4, páginas numeradas), `.fountain`, `.fdx`, texto plano, la **Biblia de
-Desarrollo** completa y un **informe de telemetría dramática** del proyecto entero. Y, si se
-quiere, el **prompt maestro** para un agente de IA: traduce toda la Biblia —vértice, idea
+Desarrollo** completa y un **informe de telemetría dramática** del proyecto entero.
+
+![Los cuatro gates cerrados: pantalla \"Listo para exportar\" con las métricas finales del proyecto](Claude%20outputs/m5-export.png)
+
+Y, si se quiere, el **prompt maestro** para un agente de IA: traduce toda la Biblia —vértice, idea
 controladora, antagonismo, estructura, escena por escena— a instrucciones, para generar una
 primera versión del guion que sí respeta lo que se construyó en los cuatro módulos anteriores.
+
+![Prompt del agente generado: 9 secciones marcables con su peso en tokens, listo para copiar](Claude%20outputs/m5-prompt.png)
 
 ---
 
