@@ -152,24 +152,12 @@ app sin pasar por el instalador se activa el **modo invitado** — el proyecto v
 navegador y se puede exportar igual. Desde la portada, **"Ver un ejemplo terminado"** carga
 *El turno de noche* tal y como se ha descrito arriba, con los cuatro gates ya cerrados.
 
-Para instalarla en local (XAMPP) y guardar proyectos en servidor, ver las instrucciones
-completas en [LEEME.md](LEEME.md).
-
 ---
 
 ## Por qué está construida así
 
-- **Una Biblia de Datos, no cinco formularios sueltos.** Todo lo que se escribe en un módulo
-  vive en un único documento JSON que los siguientes leen y validan; el vértice del módulo 1
-  condiciona qué preguntas hace el módulo 2, y así en cadena.
-- **El % de progreso y las alertas que bloquean son dos cosas distintas.** Se puede llegar al
+**El % de progreso y las alertas que bloquean son dos cosas distintas.** Se puede llegar al
   100 % de campos rellenos y seguir bloqueado porque la historia no se sostiene (dos personajes
   cumpliendo la misma función, una escena que no cambia nada, un clímax que no contradice al
   final). El servidor recalcula las alertas en cada guardado, así que el bloqueo no depende de
   que el navegador coopere.
-- **Sin build ni framework pesado.** PHP 8 puro por PDO en el servidor, módulos JavaScript
-  nativos en el cliente. Se edita un archivo y se recarga: no hay `npm run build` de por medio.
-
----
-
-Detalle técnico completo, arquitectura, y estado de cada fase en [LEEME.md](LEEME.md).
